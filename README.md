@@ -25,3 +25,6 @@ We wrapped the C++ module with several C functions and bridge the C functions wi
 ### Real-time Histogram
 
 Histogram viewer is implemented using the library GPUImage, which takes preview images into a GPU pipeline then calculate and render the histgram.
+
+## License
+[MIT](https://github.com/Cheelem/Campp/blob/master/README.md)
