@@ -1,0 +1,1155 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24FD804AEA618BD159ACA059 /* libPods-Campp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A5DE7D463095675904071B5 /* libPods-Campp.a */; };
+		2C6C46E5226AF339007D07EB /* ItemSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C46E4226AF339007D07EB /* ItemSelectionViewController.swift */; };
+		673A46BD23EFE25D00E7CA1E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 673A46BC23EFE25D00E7CA1E /* Default-568h@2x.png */; };
+		676A12CB244DADAC0057C195 /* Gallery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 676A12CA244DADAC0057C195 /* Gallery.storyboard */; };
+		67B0675B245EEBCA00B49FDB /* ExposureStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B0675A245EEBCA00B49FDB /* ExposureStrategy.swift */; };
+		67BB196824665BD700F81A70 /* FCRN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 67BB196724665BD600F81A70 /* FCRN.mlmodel */; };
+		67BB196A2466827C00F81A70 /* DepthPredictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB19692466827C00F81A70 /* DepthPredictor.swift */; };
+		67BB196C246683C500F81A70 /* DeviceMotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB196B246683C500F81A70 /* DeviceMotionDetector.swift */; };
+		67BB196E2466855300F81A70 /* HistogramIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB196D2466855300F81A70 /* HistogramIndicator.swift */; };
+		67BB19702466B38700F81A70 /* HeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67BB196F2466B38700F81A70 /* HeatmapView.swift */; };
+		67C22FD8245C18B5009E4FE1 /* GalleryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C22FD7245C18B5009E4FE1 /* GalleryDetailViewController.swift */; };
+		67C22FDE245C1AD6009E4FE1 /* GalleryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67C22FDD245C1AD6009E4FE1 /* GalleryCell.xib */; };
+		67C22FE2245C1B95009E4FE1 /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C22FE1245C1B95009E4FE1 /* GalleryCell.swift */; };
+		67C22FE4245C1C5B009E4FE1 /* GalleryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C22FE3245C1C5B009E4FE1 /* GalleryItem.swift */; };
+		67C22FE7245C1E0C009E4FE1 /* GridViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C22FE6245C1E0C009E4FE1 /* GridViewCell.swift */; };
+		67C22FE9245C1E25009E4FE1 /* GridViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67C22FE8245C1E25009E4FE1 /* GridViewCell.xib */; };
+		67E23301241DD67300852DA2 /* GPUImageSourceDelegateWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67E23300241DD67300852DA2 /* GPUImageSourceDelegateWrapper.swift */; };
+		67EE1C7C23FFAA2D0079C065 /* HDRCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EE1C5023FFAA2D0079C065 /* HDRCore.a */; };
+		67EF72A3240187DF0067017B /* HDRProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67EF72A2240187DF0067017B /* HDRProcessor.cpp */; };
+		67FD8B7E2435D720002A9735 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FD8B7D2435D720002A9735 /* GalleryViewController.swift */; };
+		7AA677151CFF765600B353FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA677141CFF765600B353FB /* AppDelegate.swift */; };
+		7AA677171CFF765600B353FB /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA677161CFF765600B353FB /* CameraViewController.swift */; };
+		7AA6771A1CFF765600B353FB /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA677181CFF765600B353FB /* Camera.storyboard */; };
+		7AA6771C1CFF765600B353FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AA6771B1CFF765600B353FB /* Assets.xcassets */; };
+		7AA6771F1CFF765600B353FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AA6771D1CFF765600B353FB /* LaunchScreen.storyboard */; };
+		7AA677271CFF774800B353FB /* PhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA677261CFF774800B353FB /* PhotoCaptureDelegate.swift */; };
+		7AA677291CFF7B5C00B353FB /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA677281CFF7B5C00B353FB /* PreviewView.swift */; };
+		D839FBB72394686500AD1F12 /* AtomicInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D839FBB62394686500AD1F12 /* AtomicInteger.swift */; };
+		D839FBB92394AA0E00AD1F12 /* StatusUpdate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D839FBB82394AA0E00AD1F12 /* StatusUpdate.swift */; };
+		D839FBBB2394CABB00AD1F12 /* QuickProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D839FBBA2394CABB00AD1F12 /* QuickProcessor.swift */; };
+		D839FBBF2395E61000AD1F12 /* silence.wav in Resources */ = {isa = PBXBuildFile; fileRef = D839FBBE2395E61000AD1F12 /* silence.wav */; };
+		D839FBC12395E70D00AD1F12 /* complete.wav in Resources */ = {isa = PBXBuildFile; fileRef = D839FBC02395E70D00AD1F12 /* complete.wav */; };
+		D8851C832388E1D200AEA8AA /* RAWBracketPictures.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8851C822388E1D200AEA8AA /* RAWBracketPictures.swift */; };
+		D8F837612380F65300029272 /* HDRCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8F837602380F65300029272 /* HDRCaptureDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		67BC35D9241BFF0D003E6570 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A5DE7D463095675904071B5 /* libPods-Campp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Campp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C6C46E4226AF339007D07EB /* ItemSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemSelectionViewController.swift; sourceTree = "<group>"; };
+		673A46BC23EFE25D00E7CA1E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		676A12CA244DADAC0057C195 /* Gallery.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Gallery.storyboard; sourceTree = "<group>"; };
+		67A1C4D82403C01500365084 /* HDRWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDRWrapper.h; sourceTree = "<group>"; };
+		67B0675A245EEBCA00B49FDB /* ExposureStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExposureStrategy.swift; sourceTree = "<group>"; };
+		67BB196724665BD600F81A70 /* FCRN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FCRN.mlmodel; sourceTree = "<group>"; };
+		67BB19692466827C00F81A70 /* DepthPredictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepthPredictor.swift; sourceTree = "<group>"; };
+		67BB196B246683C500F81A70 /* DeviceMotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMotionDetector.swift; sourceTree = "<group>"; };
+		67BB196D2466855300F81A70 /* HistogramIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistogramIndicator.swift; sourceTree = "<group>"; };
+		67BB196F2466B38700F81A70 /* HeatmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapView.swift; sourceTree = "<group>"; };
+		67C22FD7245C18B5009E4FE1 /* GalleryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryDetailViewController.swift; sourceTree = "<group>"; };
+		67C22FDD245C1AD6009E4FE1 /* GalleryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryCell.xib; sourceTree = "<group>"; };
+		67C22FE1245C1B95009E4FE1 /* GalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		67C22FE3245C1C5B009E4FE1 /* GalleryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryItem.swift; sourceTree = "<group>"; };
+		67C22FE6245C1E0C009E4FE1 /* GridViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewCell.swift; sourceTree = "<group>"; };
+		67C22FE8245C1E25009E4FE1 /* GridViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GridViewCell.xib; sourceTree = "<group>"; };
+		67E23300241DD67300852DA2 /* GPUImageSourceDelegateWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPUImageSourceDelegateWrapper.swift; sourceTree = "<group>"; };
+		67EE1C4B23FFAA2D0079C065 /* Campp-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Campp-Bridging-Header.h"; sourceTree = "<group>"; };
+		67EE1C4D23FFAA2D0079C065 /* HalideRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalideRuntime.h; sourceTree = "<group>"; };
+		67EE1C4E23FFAA2D0079C065 /* HalideBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HalideBuffer.h; sourceTree = "<group>"; };
+		67EE1C4F23FFAA2D0079C065 /* HDRCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HDRCore.h; sourceTree = "<group>"; };
+		67EE1C5023FFAA2D0079C065 /* HDRCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = HDRCore.a; sourceTree = "<group>"; };
+		67EF72A12401780E0067017B /* HDRProcessor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HDRProcessor.hpp; sourceTree = "<group>"; };
+		67EF72A2240187DF0067017B /* HDRProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HDRProcessor.cpp; sourceTree = "<group>"; };
+		67F44B06244C459100104161 /* stb_image_write.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image_write.h; sourceTree = "<group>"; };
+		67FD8B7D2435D720002A9735 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		7AA677111CFF765600B353FB /* Campp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Campp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA677141CFF765600B353FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7AA677161CFF765600B353FB /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		7AA677191CFF765600B353FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Camera.storyboard; sourceTree = "<group>"; };
+		7AA6771B1CFF765600B353FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7AA6771E1CFF765600B353FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7AA677201CFF765600B353FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AA677261CFF774800B353FB /* PhotoCaptureDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		7AA677281CFF7B5C00B353FB /* PreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		92FC0BF81AB47EDFEDE2E3D5 /* Pods-Campp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campp.debug.xcconfig"; path = "Target Support Files/Pods-Campp/Pods-Campp.debug.xcconfig"; sourceTree = "<group>"; };
+		D839FBB62394686500AD1F12 /* AtomicInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicInteger.swift; sourceTree = "<group>"; };
+		D839FBB82394AA0E00AD1F12 /* StatusUpdate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusUpdate.swift; sourceTree = "<group>"; };
+		D839FBBA2394CABB00AD1F12 /* QuickProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickProcessor.swift; sourceTree = "<group>"; };
+		D839FBBE2395E61000AD1F12 /* silence.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = silence.wav; sourceTree = "<group>"; };
+		D839FBC02395E70D00AD1F12 /* complete.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = complete.wav; sourceTree = "<group>"; };
+		D8851C822388E1D200AEA8AA /* RAWBracketPictures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWBracketPictures.swift; sourceTree = "<group>"; };
+		D8851DD62389BC0D00AEA8AA /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		D8F837602380F65300029272 /* HDRCaptureDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDRCaptureDelegate.swift; sourceTree = "<group>"; };
+		E95085195403E102AFC49D14 /* Pods-Campp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Campp.release.xcconfig"; path = "Target Support Files/Pods-Campp/Pods-Campp.release.xcconfig"; sourceTree = "<group>"; };
+		F832D8CBECBB204152E1E99B /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = ../Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AA6770E1CFF765500B353FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67EE1C7C23FFAA2D0079C065 /* HDRCore.a in Frameworks */,
+				24FD804AEA618BD159ACA059 /* libPods-Campp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		676A12CC244DADB80057C195 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7AA677181CFF765600B353FB /* Camera.storyboard */,
+				7AA6771D1CFF765600B353FB /* LaunchScreen.storyboard */,
+				676A12CA244DADAC0057C195 /* Gallery.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		678FD44523E43D4100E2A18D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				D839FBC02395E70D00AD1F12 /* complete.wav */,
+				D839FBBE2395E61000AD1F12 /* silence.wav */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		67AB83AB23E42B700049CC69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7AA677161CFF765600B353FB /* CameraViewController.swift */,
+				2C6C46E4226AF339007D07EB /* ItemSelectionViewController.swift */,
+				67FD8B7D2435D720002A9735 /* GalleryViewController.swift */,
+				67C22FD7245C18B5009E4FE1 /* GalleryDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		67BB196624665BB100F81A70 /* CoreMLModel */ = {
+			isa = PBXGroup;
+			children = (
+				67BB196724665BD600F81A70 /* FCRN.mlmodel */,
+			);
+			path = CoreMLModel;
+			sourceTree = "<group>";
+		};
+		67C22FD9245C1A4B009E4FE1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				67C22FE5245C1DF2009E4FE1 /* GridViewCell */,
+				67C22FDA245C1A84009E4FE1 /* GalleryCell */,
+				67C22FE3245C1C5B009E4FE1 /* GalleryItem.swift */,
+				67BB196F2466B38700F81A70 /* HeatmapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		67C22FDA245C1A84009E4FE1 /* GalleryCell */ = {
+			isa = PBXGroup;
+			children = (
+				67C22FDD245C1AD6009E4FE1 /* GalleryCell.xib */,
+				67C22FE1245C1B95009E4FE1 /* GalleryCell.swift */,
+			);
+			path = GalleryCell;
+			sourceTree = "<group>";
+		};
+		67C22FE5245C1DF2009E4FE1 /* GridViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				67C22FE6245C1E0C009E4FE1 /* GridViewCell.swift */,
+				67C22FE8245C1E25009E4FE1 /* GridViewCell.xib */,
+			);
+			path = GridViewCell;
+			sourceTree = "<group>";
+		};
+		67EE1C4A23FFAA2D0079C065 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				67F44B06244C459100104161 /* stb_image_write.h */,
+				67EE1C4B23FFAA2D0079C065 /* Campp-Bridging-Header.h */,
+				67EE1C4D23FFAA2D0079C065 /* HalideRuntime.h */,
+				67EE1C4E23FFAA2D0079C065 /* HalideBuffer.h */,
+				67EE1C4F23FFAA2D0079C065 /* HDRCore.h */,
+				67EE1C5023FFAA2D0079C065 /* HDRCore.a */,
+				67EF72A12401780E0067017B /* HDRProcessor.hpp */,
+				67EF72A2240187DF0067017B /* HDRProcessor.cpp */,
+				67A1C4D82403C01500365084 /* HDRWrapper.h */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		7AA677081CFF765500B353FB = {
+			isa = PBXGroup;
+			children = (
+				673A46BC23EFE25D00E7CA1E /* Default-568h@2x.png */,
+				7AA677131CFF765600B353FB /* Campp */,
+				7AA677121CFF765600B353FB /* Products */,
+				DF594A7680971C5690D94783 /* Configuration */,
+				D8851C842389B55100AEA8AA /* Frameworks */,
+				A20E0D1D1FCEB6F7003E134C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7AA677121CFF765600B353FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AA677111CFF765600B353FB /* Campp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AA677131CFF765600B353FB /* Campp */ = {
+			isa = PBXGroup;
+			children = (
+				67BB196624665BB100F81A70 /* CoreMLModel */,
+				67C22FD9245C1A4B009E4FE1 /* View */,
+				676A12CC244DADB80057C195 /* Storyboard */,
+				67EE1C4A23FFAA2D0079C065 /* Library */,
+				678FD44523E43D4100E2A18D /* Audio */,
+				67AB83AB23E42B700049CC69 /* Controller */,
+				7AA677141CFF765600B353FB /* AppDelegate.swift */,
+				7AA677281CFF7B5C00B353FB /* PreviewView.swift */,
+				7AA677261CFF774800B353FB /* PhotoCaptureDelegate.swift */,
+				67E23300241DD67300852DA2 /* GPUImageSourceDelegateWrapper.swift */,
+				7AA6771B1CFF765600B353FB /* Assets.xcassets */,
+				7AA677201CFF765600B353FB /* Info.plist */,
+				D8F837602380F65300029272 /* HDRCaptureDelegate.swift */,
+				D839FBBA2394CABB00AD1F12 /* QuickProcessor.swift */,
+				D8851C822388E1D200AEA8AA /* RAWBracketPictures.swift */,
+				D839FBB62394686500AD1F12 /* AtomicInteger.swift */,
+				D839FBB82394AA0E00AD1F12 /* StatusUpdate.swift */,
+				67B0675A245EEBCA00B49FDB /* ExposureStrategy.swift */,
+				67BB19692466827C00F81A70 /* DepthPredictor.swift */,
+				67BB196B246683C500F81A70 /* DeviceMotionDetector.swift */,
+				67BB196D2466855300F81A70 /* HistogramIndicator.swift */,
+			);
+			path = Campp;
+			sourceTree = "<group>";
+		};
+		A20E0D1D1FCEB6F7003E134C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92FC0BF81AB47EDFEDE2E3D5 /* Pods-Campp.debug.xcconfig */,
+				E95085195403E102AFC49D14 /* Pods-Campp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8851C842389B55100AEA8AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8851DD62389BC0D00AEA8AA /* libc++.tbd */,
+				0A5DE7D463095675904071B5 /* libPods-Campp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF594A7680971C5690D94783 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				F832D8CBECBB204152E1E99B /* SampleCode.xcconfig */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AA677101CFF765500B353FB /* Campp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AA677231CFF765600B353FB /* Build configuration list for PBXNativeTarget "Campp" */;
+			buildPhases = (
+				C6F53CDA4B347B1FB6A3E831 /* [CP] Check Pods Manifest.lock */,
+				7AA6770D1CFF765500B353FB /* Sources */,
+				7AA6770E1CFF765500B353FB /* Frameworks */,
+				7AA6770F1CFF765500B353FB /* Resources */,
+				67BC35D9241BFF0D003E6570 /* CopyFiles */,
+				FF0FB58CDA243938DDA1618D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Campp;
+			productName = AVCam;
+			productReference = 7AA677111CFF765600B353FB /* Campp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AA677091CFF765500B353FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Latest;
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					7AA677101CFF765500B353FB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 9FBZS7XBB7;
+						LastSwiftMigration = 1120;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7AA6770C1CFF765500B353FB /* Build configuration list for PBXProject "Campp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AA677081CFF765500B353FB;
+			productRefGroup = 7AA677121CFF765600B353FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AA677101CFF765500B353FB /* Campp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AA6770F1CFF765500B353FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676A12CB244DADAC0057C195 /* Gallery.storyboard in Resources */,
+				7AA6771C1CFF765600B353FB /* Assets.xcassets in Resources */,
+				67C22FE9245C1E25009E4FE1 /* GridViewCell.xib in Resources */,
+				673A46BD23EFE25D00E7CA1E /* Default-568h@2x.png in Resources */,
+				67C22FDE245C1AD6009E4FE1 /* GalleryCell.xib in Resources */,
+				D839FBBF2395E61000AD1F12 /* silence.wav in Resources */,
+				D839FBC12395E70D00AD1F12 /* complete.wav in Resources */,
+				7AA6771A1CFF765600B353FB /* Camera.storyboard in Resources */,
+				7AA6771F1CFF765600B353FB /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C6F53CDA4B347B1FB6A3E831 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Campp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF0FB58CDA243938DDA1618D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Campp/Pods-Campp-resources.sh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AdaptiveThreshold_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AdaptiveThreshold_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AddBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AddBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AlphaBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AlphaBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AlphaTest_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AlphaTest_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AverageColor_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AverageColor_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AverageLuminance_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/AverageLuminance_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/BilateralBlur_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/BilateralBlur_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Brightness_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Brightness_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/BulgeDistortion_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/BulgeDistortion_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/CGAColorspace_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/CGAColorspace_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ChromaKeyBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ChromaKeyBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ChromaKey_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ChromaKey_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Circle_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Circle_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorBurnBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorBurnBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorDodgeBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorDodgeBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorInvert_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorInvert_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorLocalBinaryPattern_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorLocalBinaryPattern_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorMatrix_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorMatrix_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorSwizzling_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColorSwizzling_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColourFASTDecriptor_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ColourFASTDecriptor_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Contrast_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Contrast_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Convolution3x3_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Convolution3x3_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Crosshair_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Crosshair_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Crosshatch_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Crosshatch_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DarkenBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DarkenBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DifferenceBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DifferenceBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Dilation1_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Dilation1_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Dilation2_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Dilation2_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Dilation3_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Dilation3_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Dilation4_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Dilation4_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DirectionalNonMaximumSuppression_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DirectionalNonMaximumSuppression_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DirectionalSobelEdgeDetection_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DirectionalSobelEdgeDetection_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DissolveBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DissolveBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DivideBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/DivideBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Erosion1_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Erosion1_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Erosion2_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Erosion2_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Erosion3_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Erosion3_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Erosion4_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Erosion4_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ExclusionBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ExclusionBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Exposure_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Exposure_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/FalseColor_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/FalseColor_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Gamma_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Gamma_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/GlassSphere_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/GlassSphere_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Halftone_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Halftone_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HardLightBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HardLightBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HarrisCornerDetector_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HarrisCornerDetector_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Haze_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Haze_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HighlightShadowTint_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HighlightShadowTint_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HighlightShadow_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HighlightShadow_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramAccumulation_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramAccumulation_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramDisplay_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramDisplay_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramEqualizationBlue_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramEqualizationBlue_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramEqualizationGreen_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramEqualizationGreen_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramEqualizationLuminance_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramEqualizationLuminance_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramEqualizationRed_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramEqualizationRed_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramEqualizationRGB_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HistogramEqualizationRGB_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HueBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/HueBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Hue_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Hue_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/KuwaharaRadius3_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/KuwaharaRadius3_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Kuwahara_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Kuwahara_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LanczosResampling_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LanczosResampling_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Laplacian_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Laplacian_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Levels_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Levels_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LightenBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LightenBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LinearBurnBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LinearBurnBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Line_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Line_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LocalBinaryPattern_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LocalBinaryPattern_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Lookup_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Lookup_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LuminanceRange_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LuminanceRange_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LuminanceThreshold_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LuminanceThreshold_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Luminance_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Luminance_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LuminosityBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/LuminosityBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Median_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Median_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Monochrome_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Monochrome_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/MotionBlur_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/MotionBlur_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/MotionComparison_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/MotionComparison_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/MultiplyBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/MultiplyBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/NobleCornerDetector_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/NobleCornerDetector_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/NormalBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/NormalBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Opacity_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Opacity_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/OverlayBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/OverlayBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Passthrough_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Passthrough_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/PinchDistortion_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/PinchDistortion_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Pixellate_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Pixellate_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/PolarPixellate_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/PolarPixellate_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/PolkaDot_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/PolkaDot_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Posterize_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Posterize_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/PrewittEdgeDetection_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/PrewittEdgeDetection_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/RGBAdjustment_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/RGBAdjustment_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SaturationBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SaturationBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Saturation_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Saturation_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ScreenBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ScreenBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Sharpen_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Sharpen_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ShiTomasiFeatureDetector_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ShiTomasiFeatureDetector_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Sketch_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Sketch_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SobelEdgeDetection_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SobelEdgeDetection_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SoftLightBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SoftLightBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Solarize_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Solarize_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SourceOverBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SourceOverBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SphereRefraction_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SphereRefraction_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/StretchDistortion_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/StretchDistortion_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SubtractBlend_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/SubtractBlend_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Swirl_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Swirl_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ThresholdEdgeDetection_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ThresholdEdgeDetection_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ThresholdedNonMaximumSuppression_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ThresholdedNonMaximumSuppression_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ThresholdSketch_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ThresholdSketch_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/TiltShift_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/TiltShift_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Toon_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Toon_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/UnsharpMask_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/UnsharpMask_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Vibrance_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Vibrance_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Vignette_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/Vignette_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/WeakPixelInclusion_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/WeakPixelInclusion_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/WhiteBalance_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/WhiteBalance_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/XYDerivative_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/XYDerivative_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/YUVConversionFullRangeUVPlanar_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/YUVConversionFullRangeUVPlanar_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/YUVConversionFullRange_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/YUVConversionFullRange_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/YUVConversionVideoRange_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/YUVConversionVideoRange_GLES.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ZoomBlur_GL.fsh",
+				"${PODS_ROOT}/GPUImage2/framework/Source/Operations/Shaders/ZoomBlur_GLES.fsh",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AdaptiveThreshold_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AdaptiveThreshold_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AddBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AddBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlphaBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlphaBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlphaTest_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlphaTest_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AverageColor_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AverageColor_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AverageLuminance_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AverageLuminance_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BilateralBlur_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BilateralBlur_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Brightness_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Brightness_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BulgeDistortion_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BulgeDistortion_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CGAColorspace_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CGAColorspace_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ChromaKeyBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ChromaKeyBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ChromaKey_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ChromaKey_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Circle_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Circle_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorBurnBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorBurnBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorDodgeBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorDodgeBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorInvert_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorInvert_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorLocalBinaryPattern_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorLocalBinaryPattern_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorMatrix_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorMatrix_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorSwizzling_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColorSwizzling_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColourFASTDecriptor_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ColourFASTDecriptor_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Contrast_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Contrast_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Convolution3x3_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Convolution3x3_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Crosshair_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Crosshair_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Crosshatch_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Crosshatch_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DarkenBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DarkenBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DifferenceBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DifferenceBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dilation1_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dilation1_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dilation2_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dilation2_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dilation3_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dilation3_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dilation4_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dilation4_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DirectionalNonMaximumSuppression_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DirectionalNonMaximumSuppression_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DirectionalSobelEdgeDetection_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DirectionalSobelEdgeDetection_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DissolveBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DissolveBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DivideBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DivideBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Erosion1_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Erosion1_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Erosion2_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Erosion2_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Erosion3_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Erosion3_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Erosion4_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Erosion4_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExclusionBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ExclusionBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Exposure_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Exposure_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FalseColor_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FalseColor_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Gamma_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Gamma_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GlassSphere_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GlassSphere_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Halftone_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Halftone_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HardLightBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HardLightBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HarrisCornerDetector_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HarrisCornerDetector_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Haze_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Haze_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HighlightShadowTint_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HighlightShadowTint_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HighlightShadow_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HighlightShadow_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramAccumulation_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramAccumulation_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramDisplay_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramDisplay_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramEqualizationBlue_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramEqualizationBlue_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramEqualizationGreen_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramEqualizationGreen_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramEqualizationLuminance_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramEqualizationLuminance_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramEqualizationRed_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramEqualizationRed_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramEqualizationRGB_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HistogramEqualizationRGB_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HueBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HueBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Hue_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Hue_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KuwaharaRadius3_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/KuwaharaRadius3_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Kuwahara_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Kuwahara_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LanczosResampling_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LanczosResampling_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Laplacian_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Laplacian_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Levels_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Levels_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LightenBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LightenBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LinearBurnBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LinearBurnBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Line_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Line_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LocalBinaryPattern_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LocalBinaryPattern_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lookup_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Lookup_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LuminanceRange_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LuminanceRange_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LuminanceThreshold_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LuminanceThreshold_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Luminance_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Luminance_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LuminosityBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LuminosityBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Median_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Median_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Monochrome_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Monochrome_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MotionBlur_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MotionBlur_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MotionComparison_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MotionComparison_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MultiplyBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MultiplyBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NobleCornerDetector_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NobleCornerDetector_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NormalBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/NormalBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Opacity_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Opacity_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OverlayBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/OverlayBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Passthrough_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Passthrough_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PinchDistortion_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PinchDistortion_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Pixellate_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Pixellate_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PolarPixellate_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PolarPixellate_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PolkaDot_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PolkaDot_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Posterize_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Posterize_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PrewittEdgeDetection_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PrewittEdgeDetection_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RGBAdjustment_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RGBAdjustment_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SaturationBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SaturationBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Saturation_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Saturation_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ScreenBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ScreenBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Sharpen_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Sharpen_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShiTomasiFeatureDetector_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShiTomasiFeatureDetector_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Sketch_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Sketch_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SobelEdgeDetection_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SobelEdgeDetection_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SoftLightBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SoftLightBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Solarize_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Solarize_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SourceOverBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SourceOverBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SphereRefraction_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SphereRefraction_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StretchDistortion_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/StretchDistortion_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SubtractBlend_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SubtractBlend_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Swirl_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Swirl_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ThresholdEdgeDetection_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ThresholdEdgeDetection_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ThresholdedNonMaximumSuppression_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ThresholdedNonMaximumSuppression_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ThresholdSketch_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ThresholdSketch_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TiltShift_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TiltShift_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Toon_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Toon_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UnsharpMask_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UnsharpMask_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Vibrance_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Vibrance_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Vignette_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Vignette_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeakPixelInclusion_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeakPixelInclusion_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WhiteBalance_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WhiteBalance_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XYDerivative_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XYDerivative_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YUVConversionFullRangeUVPlanar_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YUVConversionFullRangeUVPlanar_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YUVConversionFullRange_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YUVConversionFullRange_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YUVConversionVideoRange_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/YUVConversionVideoRange_GLES.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZoomBlur_GL.fsh",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZoomBlur_GLES.fsh",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Campp/Pods-Campp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AA6770D1CFF765500B353FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67BB196824665BD700F81A70 /* FCRN.mlmodel in Sources */,
+				67C22FE7245C1E0C009E4FE1 /* GridViewCell.swift in Sources */,
+				7AA677271CFF774800B353FB /* PhotoCaptureDelegate.swift in Sources */,
+				67C22FD8245C18B5009E4FE1 /* GalleryDetailViewController.swift in Sources */,
+				67BB19702466B38700F81A70 /* HeatmapView.swift in Sources */,
+				67B0675B245EEBCA00B49FDB /* ExposureStrategy.swift in Sources */,
+				D839FBB72394686500AD1F12 /* AtomicInteger.swift in Sources */,
+				67BB196C246683C500F81A70 /* DeviceMotionDetector.swift in Sources */,
+				7AA677291CFF7B5C00B353FB /* PreviewView.swift in Sources */,
+				D8F837612380F65300029272 /* HDRCaptureDelegate.swift in Sources */,
+				67EF72A3240187DF0067017B /* HDRProcessor.cpp in Sources */,
+				67C22FE2245C1B95009E4FE1 /* GalleryCell.swift in Sources */,
+				67FD8B7E2435D720002A9735 /* GalleryViewController.swift in Sources */,
+				7AA677171CFF765600B353FB /* CameraViewController.swift in Sources */,
+				67BB196A2466827C00F81A70 /* DepthPredictor.swift in Sources */,
+				7AA677151CFF765600B353FB /* AppDelegate.swift in Sources */,
+				D839FBB92394AA0E00AD1F12 /* StatusUpdate.swift in Sources */,
+				67C22FE4245C1C5B009E4FE1 /* GalleryItem.swift in Sources */,
+				D8851C832388E1D200AEA8AA /* RAWBracketPictures.swift in Sources */,
+				67E23301241DD67300852DA2 /* GPUImageSourceDelegateWrapper.swift in Sources */,
+				D839FBBB2394CABB00AD1F12 /* QuickProcessor.swift in Sources */,
+				67BB196E2466855300F81A70 /* HistogramIndicator.swift in Sources */,
+				2C6C46E5226AF339007D07EB /* ItemSelectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AA677181CFF765600B353FB /* Camera.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA677191CFF765600B353FB /* Base */,
+			);
+			name = Camera.storyboard;
+			sourceTree = "<group>";
+		};
+		7AA6771D1CFF765600B353FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AA6771E1CFF765600B353FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AA677211CFF765600B353FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FC0BF81AB47EDFEDE2E3D5 /* Pods-Campp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"fluid-slider\"",
+					"-l\"pop\"",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Campp/Library/Campp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AA677221CFF765600B353FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95085195403E102AFC49D14 /* Pods-Campp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"fluid-slider\"",
+					"-l\"pop\"",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Campp/Library/Campp-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "Campp/Library/Campp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AA677241CFF765600B353FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FC0BF81AB47EDFEDE2E3D5 /* Pods-Campp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9FBZS7XBB7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Campp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Campp/Library",
+				);
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"fluid-slider\"",
+					"-l\"pop\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheelem.Campp;
+				PRODUCT_NAME = Campp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Campp/Library/Campp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7AA677251CFF765600B353FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E95085195403E102AFC49D14 /* Pods-Campp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 9FBZS7XBB7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Campp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Campp/Library",
+				);
+				MACH_O_TYPE = mh_execute;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"c++\"",
+					"-l\"fluid-slider\"",
+					"-l\"pop\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cheelem.Campp;
+				PRODUCT_NAME = Campp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "Campp/Library/Campp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AA6770C1CFF765500B353FB /* Build configuration list for PBXProject "Campp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA677211CFF765600B353FB /* Debug */,
+				7AA677221CFF765600B353FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AA677231CFF765600B353FB /* Build configuration list for PBXNativeTarget "Campp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AA677241CFF765600B353FB /* Debug */,
+				7AA677251CFF765600B353FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AA677091CFF765500B353FB /* Project object */;
+}
